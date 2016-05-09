@@ -1,4 +1,3 @@
-import * as React from 'react';
 import dispatcher from '../dispatcher/AppDispatcher';
 import EventEmitter from 'eventemitter2';
 

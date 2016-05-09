@@ -3,17 +3,23 @@ import * as React from 'react';
 class Display extends React.Component {
     constructor(prop){
         super(prop);
-        this.state = {
-            message: 'ココに結果が表示されます'
-        };
     }
     render(){
+        let { message } = this.props;
         return (
             <div>
-                { this.state.message }
+                { message }
             </div>
         );
     }
 }
+
+Display.propTypes = {
+    message: React.PropTypes.string
+};
+
+Display.defaultProps = {
+    message: 'ココにメッセージが入ります'
+};
 
 export default Display;

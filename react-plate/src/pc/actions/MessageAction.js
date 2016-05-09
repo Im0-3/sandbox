@@ -10,6 +10,7 @@ class MessageAction {
      * @param data
      */
     sendData(data){
+        console.log(data);
         dispatcher.dispatch({
             actionType: 'sendData',
             data: data

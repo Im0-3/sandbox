@@ -117,7 +117,7 @@ class App extends React.Component {
         super(props);
         this.store = new ItemStore(dispatcher);
         this.state = {
-            data: null
+            message: 'ここに入力した結果が入ります'
         };
     }
     componentDidMount() {
@@ -129,7 +129,7 @@ class App extends React.Component {
         return (
             <div>
                 <Form />
-                <Display data={this.state.data} />
+                <Display message={this.state.message} />
             </div>
         );
     }
