@@ -5,6 +5,8 @@ import EventEmitter from 'eventemitter2';
 
 //Dispather
 let dispatcher = new Dispatcher();
+console.log(dispatcher);
+
 
 /**
  * Action
@@ -14,7 +16,7 @@ class ItemAction {
         this.dispatcher = dispatcher;
     }
     /**
-     * dispatcherにデータを渡す
+     * Dispatcherにデータを渡す
      * @param data
      */
     sendData(data){
@@ -34,11 +36,15 @@ class ItemStore extends EventEmitter {
         super();
         this.state = {};
         /**
-         * dispatcherにデータが渡ったら実行される
+         * dispatcherにデータが渡ったら
+         * stateが更新される
          */
         dispatcher.register((payload) => {
             if (payload.actionType === 'sendData') {
                 this.state.data = payload.data;
+                /**
+                 * Emitterのチェンジイベントが発行される
+                 */
                 this.emit('change');
             }
         });
@@ -46,6 +52,7 @@ class ItemStore extends EventEmitter {
     getState(){
         return this.state;
     }
+    //storeのチェンジイベントが実行されたらcallbackを実行
     addChangeListener(callback){
         this.on('change', callback);
     }

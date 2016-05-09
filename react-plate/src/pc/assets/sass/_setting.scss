@@ -1,0 +1,34 @@
+$color-black: #333333;
+$color-main: #5ebfe3;
+$color-main-light: #F0FBFF;
+
+$color-gray01: #fafafa;
+$color-gray02: #dddddd;
+$color-gray03: #aaaaaa;
+$color-gray04: #999999;
+
+$color-facebook: #3B5999;
+$color-hatena: #2C6EBD;
+$color-twitter:#55ACEE;
+$color-google: #CC3732;
+$color-poket: #DC3D50;
+$color-line: #00C300;
+
+$width-main: 1080px;
+$width-space: 20px;
+
+
+$font-family-ja: sans-serif;
+$font-family-en: sans-serif;
+
+//antialiased,subpixel-antialiased,none
+$font-smoothing: antialiased;
+
+//auto,optimizeSpeed,optimizeLegibility,geometricPrecision
+$text-rendering: auto;
+
+$base-font-family: $font-family-ja;
+$base-font-family-en: $font-family-en;
+$base-font-size: 10px;
+$base-font-color: $color-black;
+$base-background-color: #fff;

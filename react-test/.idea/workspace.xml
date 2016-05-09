@@ -1,132 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c0ac6a1-9991-48b4-99f2-1177c6aa9c24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/wordpress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pc/js/component/Header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pc/js/module/ImageLoader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pc/js/util/SetRequestAnimationFrame.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pc/view/parts/_footer-single.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pc/view/parts/svg/icon-drop-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pc/view/parts/svg/icon-drop.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pc/view/single.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/footer-single.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/header-single.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/sidebar-single.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/sidebar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/single.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/dammy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/icon-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/icon-corporation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/icon-hurry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/icon-list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/icon-others.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/icon-quality.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/icon-truck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/images/selector.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_form-confilm.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-body.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-margin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-screen.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-section.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_l-wrapper.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/layout/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_contact-button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_copyright.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_flow.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-confilm.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-contact.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-input.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-link.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-selector.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-tag.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_form-textarea.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_heading.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_list-header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_logo.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_menu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_message-list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_message.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sass/module/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-alert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-attend.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-camera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-customer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-nav-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-nav-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-password.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/sprites/icon-2x/icon-question.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/Q1.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/a1.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/a2.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/a3.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/a4.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/a5.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/a6.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b1.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b10.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b11.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b12.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b13.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b14.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b15.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b16.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b17.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b18.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b2.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b3-open.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b3.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b4.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b5.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b6.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b7.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b8.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/b9.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/q2.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/q3.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/q4.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/q5.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/q6.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/q7.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pc/view/q8.ejs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htmlhintrc" afterPath="$PROJECT_DIR$/.htmlhintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/npm-shrinkwrap.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/js/app.js" afterPath="$PROJECT_DIR$/src/pc/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/js/vender.js" afterPath="$PROJECT_DIR$/src/pc/js/vender.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/sass/_setting.scss" afterPath="$PROJECT_DIR$/src/pc/sass/_setting.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/sass/base/_base.scss" afterPath="$PROJECT_DIR$/src/pc/sass/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/sass/style.css" afterPath="$PROJECT_DIR$/src/pc/sass/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/sass/style.scss" afterPath="$PROJECT_DIR$/src/pc/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/view/index.ejs" afterPath="$PROJECT_DIR$/src/pc/view/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/view/parts/_footer.ejs" afterPath="$PROJECT_DIR$/src/pc/view/parts/_footer.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/view/parts/_header.ejs" afterPath="$PROJECT_DIR$/src/pc/view/parts/_header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pc/view/parts/_insert-header.ejs" afterPath="$PROJECT_DIR$/src/pc/view/parts/_insert-header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
-    </list>
+    <list default="true" id="5c0ac6a1-9991-48b4-99f2-1177c6aa9c24" name="Default" comment="" />
     <ignored path="sentaku.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -154,31 +29,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pc/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22664835">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pc/sass/style.scss">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <caret line="99" column="17" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19642857">
+              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulp/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2222223">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pc/js/hello.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="104" selection-start-line="24" selection-start-column="104" selection-end-line="24" selection-end-column="104" />
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pc/js/hello2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -187,8 +92,28 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pc/view/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pc/view/hello.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello2.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pc/view/hello2.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -197,64 +122,8 @@
       <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_footer.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/eriii/single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <marker date="1462247867000" expanded="true" signature="5659:6542" placeholder="..." />
-                <marker date="1462247867000" expanded="true" signature="5735:6504" placeholder="..." />
-                <marker date="1462247867000" expanded="true" signature="5807:6457" placeholder="..." />
-                <marker date="1462247867000" expanded="true" signature="5877:5976" placeholder="..." />
-                <marker date="1462247867000" expanded="true" signature="6041:6255" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/eriii/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header-single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/eriii/header-single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vender.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pc/js/vender.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -263,22 +132,15 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pc/sass/_setting.scss" />
-        <option value="$PROJECT_DIR$/src/pc/sass/layout/_l-footer.scss" />
-        <option value="$PROJECT_DIR$/src/pc/sass/layout/_l-sub.scss" />
-        <option value="$PROJECT_DIR$/src/pc/sass/layout/_l-container.scss" />
-        <option value="$PROJECT_DIR$/src/pc/sass/layout/_l-main.scss" />
         <option value="$PROJECT_DIR$/src/pc/sass/module/_pagetop.scss" />
         <option value="$PROJECT_DIR$/src/pc/sass/module/_pager.scss" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/eriii/style.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/gulp/wordpress.js" />
-        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/index.php" />
         <option value="$PROJECT_DIR$/src/pc/sass/layout/_l-cat-list.scss" />
         <option value="$PROJECT_DIR$/src/pc/sass/module/_cat.scss" />
@@ -315,10 +177,17 @@
         <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/pc/sass/style.scss" />
-        <option value="$PROJECT_DIR$/src/pc/view/parts/_header.ejs" />
         <option value="$PROJECT_DIR$/src/pc/view/parts/_footer.ejs" />
+        <option value="$PROJECT_DIR$/src/pc/view/hello.ejs" />
+        <option value="$PROJECT_DIR$/src/pc/view/parts/_insert-footer.ejs" />
+        <option value="$PROJECT_DIR$/src/pc/view/parts/_header.ejs" />
+        <option value="$PROJECT_DIR$/src/pc/js/hello.js" />
         <option value="$PROJECT_DIR$/src/pc/view/index.ejs" />
+        <option value="$PROJECT_DIR$/src/pc/view/hello2.ejs" />
+        <option value="$PROJECT_DIR$/src/pc/js/hello2.js" />
         <option value="$PROJECT_DIR$/src/pc/js/app.js" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -405,7 +274,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="75" />
+    <option name="y" value="95" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -434,6 +304,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -462,110 +334,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentaku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentaku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentaku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentaku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="gulp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,16 +351,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pc/js/util" />
-      <recent name="$PROJECT_DIR$/src/pc/sass/module" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pc/view" />
+      <recent name="$PROJECT_DIR$/src/pc/js" />
       <recent name="$PROJECT_DIR$/src/pc/js/component" />
       <recent name="$PROJECT_DIR$/wordpress/wp-content/themes/eriii" />
       <recent name="$PROJECT_DIR$/src/pc/sass/layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pc/js/util" />
       <recent name="$PROJECT_DIR$/src/pc/sass/module" />
-      <recent name="$PROJECT_DIR$/src/pc/js/module" />
     </key>
   </component>
   <component name="RunManager">
@@ -633,29 +407,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="75" y="95" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19670959" sideWeight="0.4005682" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16452074" sideWeight="0.40421793" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33690986" sideWeight="0.39940387" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16773367" sideWeight="0.50572246" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04077253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16237482" sideWeight="0.40275386" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14084508" sideWeight="0.4950249" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13447782" sideWeight="0.4832905" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2918455" sideWeight="0.5957821" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33690986" sideWeight="0.60059613" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14084508" sideWeight="0.4950249" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -696,49 +470,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="104" selection-start-line="24" selection-start-column="104" selection-end-line="24" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc/view/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/eriii/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <marker date="1462247867000" expanded="true" signature="5659:6542" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="5735:6504" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="5807:6457" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="5877:5976" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="6041:6255" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="15" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,45 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14363885">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/eriii/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/svg/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23291926">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="76" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_insert-header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_insert-footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -999,14 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1019,13 +709,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <marker date="1462247867000" expanded="true" signature="5659:6542" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="5735:6504" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="5807:6457" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="5877:5976" placeholder="..." />
-            <marker date="1462247867000" expanded="true" signature="6041:6255" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.205298">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36388507">
           <caret line="44" column="15" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,22 +755,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020519836">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_insert-header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_insert-footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc/view/parts/_header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc/view/hello.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc/view/hello2.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc/js/hello2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pc/view/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc/js/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pc/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22664835">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2222223">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="17" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19642857">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
           <folding />
         </state>
       </provider>
