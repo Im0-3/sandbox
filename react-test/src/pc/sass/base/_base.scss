@@ -1,0 +1,32 @@
+/*
+#styleguide
+基本スタイル
+
+```
+<p>特に何も指定しないときの状態</p>
+```
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+html,body {
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-font-smoothing: $font-smoothing;
+	font-smoothing: $font-smoothing;
+	text-rendering: $text-rendering;
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+	color: $base-font-color;
+	background-color: $base-background-color;
+	@media (min-width: 435px){
+		font-size: 10px;
+	}
+	overflow-x: hidden;
+}
+
+a {
+	color: $color-main;
+	&:hover {
+		opacity: .7;
+	}
+}
