@@ -1,0 +1,7 @@
+<script src="js/vender.js"></script>
+
+<% if(pageData.name === 'index'){%>
+<script src="js/app.js"></script>
+<% } else { %>
+<script src="js/<%= pageData.name %>.js"></script>
+<% } %>

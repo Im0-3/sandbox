@@ -1,28 +1,31 @@
 import * as React from 'react';
 import Form from './Form';
 import Display from './Display';
-import Store from '../stores/MessageStore';
+import Store from '../stores/TodoStore';
+import FormArea from './FormArea';
+import ListArea from './ListArea';
 
 class App extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            message: 'ココに結果が表示されます'
+            todoList: []
         };
         this.store = new Store();
     }
     //コンポーネントがDOMツリーに追加されたら実行される
     componentDidMount() {
         this.store.addChangeListener(() => {
-            //stateの値を変更
-            this.setState(this.store.getState());
+            this.setState({
+                todoList: this.store.getTodoList()
+            });
         });
     }
     render(){
         return (
             <div>
-                <Form />
-                <Display message={this.state.message} />
+                <FormArea />
+                <ListArea todoList={this.state.todoList}/>
             </div>
         );
     }

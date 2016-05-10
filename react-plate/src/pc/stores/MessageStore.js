@@ -13,8 +13,8 @@ class MessageStore extends EventEmitter {
          * stateが更新される
          */
         dispatcher.register((payload) => {
-            if (payload.actionType === 'sendData') {
-                this.state.data = payload.data;
+            if (payload.actionType === 'sendMessage') {
+                this.state.message = payload.message;
                 /**
                  * Emitterのチェンジイベントが発行される
                  */

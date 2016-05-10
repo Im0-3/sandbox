@@ -7,13 +7,12 @@ import dispatcher from '../dispatcher/AppDispatcher';
 class MessageAction {
     /**
      * Dispatcherにデータを渡す
-     * @param data
+     * @param value
      */
-    sendData(data){
-        console.log(data);
+    sendMessage(value){
         dispatcher.dispatch({
-            actionType: 'sendData',
-            data: data
+            actionType: 'sendMessage',
+            message: value
         });
     }
 }

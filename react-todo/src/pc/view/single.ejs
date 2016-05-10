@@ -1,0 +1,100 @@
+<%
+var pageData = {
+    name: 'single',
+    title: 'インデックス'
+}
+%>
+<%- include('./parts/_header', {pageData}) %>
+
+    <div class="l-sub l-sub-single">
+        <div class="l-sub-content l-sub-content-top">
+            <div class="l-sub-content-inner">
+                <aside class="l-aside l-aside-col1">
+                    <div class="l-aside-banner">
+                        <div style="width: 300px; height: 250px; background: #ccc; display: inline-block;">
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <div class="l-sub-content l-sub-content-middle">
+            <div class="l-sub-content-inner">
+                <aside class="l-aside l-aside-col1">
+                    <div class="l-aside-header">
+                        <div class="aside-heading">最新記事一覧</div>
+                    </div>
+                    <div class="l-aside-body l-padding-top-0">
+                        <ul class="l-media-list">
+                            <% for(var i = 0; i < 3; i++){ %>
+                            <li class="l-media-list-item">
+                                <article class="media media-latest">
+                                    <h1 class="media-heading">日本よ、これが餃子だ。高円寺「餃子処たちばな」の0円餃子を食わずに死ねるか</h1>
+                                </article>
+                            </li>
+                            <% } %>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <div class="l-sub-content l-sub-content-bottom">
+            <div class="l-sub-content-inner">
+                <aside class="l-aside l-aside-col2">
+                    <div class="l-aside-header">
+                        <div class="aside-heading aside-heading-white
+                            ">カテゴリー</div>
+                    </div>
+                    <div class="l-aside-body l-aside-body-white">
+                        <ul class="l-cat-list">
+                            <%
+                            var catData = [
+                                'WEBのはなし',
+                                'えっちなはなし',
+                                'サブカルチャー',
+                                '働きたくないでござる',
+                                '好きな飲み屋',
+                                '本の話',
+                                '珍スポット',
+                                '男と女のおはなし',
+                                '言いたくなった'
+                            ];
+                            %>
+                            <% for(var i = 0; i < catData.length; i++){ %>
+                            <li class="l-cat-list-item">
+                                <a href="" class="cat cat-white">
+                                    <%= catData[i] %>
+                                </a>
+                            </li>
+
+                            <% } %>
+                        </ul>
+                    </div>
+                </aside>
+                <aside class="l-aside l-aside-col2">
+                    <div class="l-aside-header">
+                        <div class="aside-heading aside-heading-white">私について</div>
+                    </div>
+                    <div class="l-aside-body l-aside-body-white">
+                        <div class="profile profile-white">
+                            <div class="profile-image">
+                                <img src="images/eriii.jpg" alt="">
+                            </div>
+                            <div class="profile-text">
+                                <p>元ワセジョ
+                                    元Gow!Magazinライター</p>
+                                <p>
+                                    お酒と本がすきです。
+                                    「せんべろ」という言葉に抱かれたい。</p>
+                                <div class="profile-button">
+                                    <a href="" class="button button-follow button-white">フォローする</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+<%- include('./parts/_footer', {pageData}) %>
