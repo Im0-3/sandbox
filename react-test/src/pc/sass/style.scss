@@ -3,3 +3,28 @@
 @import 'base/sanitize';
 @import 'base/mixin';
 @import 'base/base';
+
+.form {
+    padding: 20px;
+}
+
+.form__input {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.form__button {
+    font-size: 16px;
+    padding: 11px 20px;
+    background: gray;
+    color: white;
+}
+
+.display {
+    margin: 20px;
+    font-size: 16px;
+    padding: 5px 0;
+    border-bottom: 1px solid gray;
+}

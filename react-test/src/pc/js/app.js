@@ -5,8 +5,6 @@ import EventEmitter from 'eventemitter2';
 
 //Dispather
 let dispatcher = new Dispatcher();
-console.log(dispatcher);
-
 
 /**
  * Action
@@ -50,6 +48,7 @@ class ItemStore extends EventEmitter {
         });
     }
     getState(){
+        console.log(this.state);
         return this.state;
     }
     //storeのチェンジイベントが実行されたらcallbackを実行
@@ -75,7 +74,7 @@ class Display extends React.Component {
     render(){
         let { data } = this.props;
         return (
-           <div>{data}</div>
+           <div className="display">{data}</div>
         );
     }
 }
@@ -100,9 +99,9 @@ class Form extends React.Component {
     }
     render(){
         return (
-            <form action="">
-                <input type="text" ref="input" />
-                <button type="submit" ref="button" onClick={this.onClickButton}>submit</button>
+            <form action="" className="form">
+                <input className="form__input" type="text" ref="input" />
+                <button className="form__button" type="submit" ref="button" onClick={this.onClickButton}>submit</button>
             </form>
         );
     }
@@ -117,7 +116,7 @@ class App extends React.Component {
         super(props);
         this.store = new ItemStore(dispatcher);
         this.state = {
-            message: 'ここに入力した結果が入ります'
+            data: 'ここに入力した結果が入ります'
         };
     }
     componentDidMount() {
@@ -129,7 +128,7 @@ class App extends React.Component {
         return (
             <div>
                 <Form />
-                <Display message={this.state.message} />
+                <Display data={this.state.data} />
             </div>
         );
     }
