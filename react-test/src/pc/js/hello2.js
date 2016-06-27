@@ -7,27 +7,21 @@ import * as ReactDOM from 'react-dom';
 class Hello extends React.Component {
     constructor(props){
         super(props);
-        //コンポーネントはstateとpropという２種類のデータをもつことができる
         this.state = {
             message: null
         };
+        this.onClickButton = this.onClickbutton.bind(this);
     }
-    //コンポーネントがマウントされたら実行
-    componentDidMount() {
-        let form = document.getElementById('form');
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            let input = e.currentTarget.querySelectorAll('input');
-            this.setState({message: input[0].value});
-        });
+    onClickButton() {
+        let value = ReactDOM.findDOMNode(this.refs.button).value;
+        this.setState({message: value});
     }
     render(){
         return (
             <div>
                 <form id="form">
                     <input type="text" />
-                    {}
-                    <button type="submit">submit</button>
+                    <button ref="button" onClick={this.onClickButton}>submit</button>
                 </form>
                 <div>Hello World! { this.state.message }</div>
             </div>

@@ -1,15 +1,40 @@
+
+
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-/**
- * Hello
- */
-class Hello extends React.Component {
+
+
+class Form extends React.Component {
     render(){
         return (
-            <div>Hello World!</div>
+            <form action="">
+                <input type="text"/>
+                <button>submit</button>
+            </form>
         );
     }
 }
 
-ReactDOM.render(<Hello />, document.getElementById('hello'));
+class Container extends React.Component {
+    render(){
+        return (
+            <div>
+                Container
+            </div>
+        );
+    }
+}
+
+class App extends React.Component {
+    render(){
+        return (
+            <div>
+                <Form />
+                <Container />
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById('app'));
